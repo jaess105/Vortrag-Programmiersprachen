@@ -1,1 +1,97 @@
-Programmiersprachen
+= Programmiersprachen
+:toc:
+
+== Inkludierte Programmiersprachen
+
+Programmiersprachen, die definitiv aufgeführt werden:
+
+- JavaScript
+- TypeScript
+- PHP
+- HTML & CSS 
+
+- Java
+- Kotlin
+- Swift
+- Objective-C
+- Dart
+
+- Golang
+
+- C und C++
+- C# (C Sharp)
+
+- Python
+- R
+- Matlab
+
+Vielleicht:
+
+- CLIPS
+- Smalltalk
+- COBOL
+- FORTRAN
+- B
+- Ada
+- Basic
+
+- Clojure
+- Haskell
+
+- Visual Basic
+- Scratch
+- Delphi/Object Pascal
+- SQL
+
+== Themen
+
+=== Einführung in Unterschiede zwischen Programmiersprachen
+
+* Paradigmen (OOP, Funktional, Procedural)
+* Typsicherheit
+* Statically vs dynamically typed
+* Compiled vs Interpreted
+* Unterschied https://en.wikipedia.org/wiki/Domain-specific_language[DSL] 
+und
+https://en.wikipedia.org/wiki/General-purpose_language[GPL]
+
+
+
+=== Gebiete der Programmierung
+
+* Web dev
+* App dev
+* Cross dev
+* Databases
+* Data science
+* Artificial Intelligence > Machine Learning
+* Cyber security
+* Embedded systems
+* Game Development
+
+
+* Operating systems
+* Distributed computing
+* Scientific computing
+* Multimedia software
+* Communications systems
+* Digital signal processing
+* Digital control systems
+* Software development tools
+
+
+
+
+
+== Resources
+
+https://www.sas.upenn.edu/~jesusfv/Lecture_HPC_5_Scientific_Computing_Languages.pdf[Scientific computing languages]
+
+https://de.wikipedia.org/wiki/Liste_von_Programmiersprachen[Liste von Programmiersprachen]
+
+https://lerneprogrammieren.de/uebersicht-ueber-die-programmiersprachen/[Übersicht]
+
+https://www.kdnuggets.com/2021/05/top-programming-languages.html[Top languages]
+
+https://insights.stackoverflow.com/survey/2021[Stack Overflow survey]
+
