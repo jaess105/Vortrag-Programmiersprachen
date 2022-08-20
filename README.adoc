@@ -9,6 +9,7 @@ Programmiersprachen, die definitiv aufgeführt werden:
 - TypeScript
 - PHP
 - HTML & CSS 
+- Ruby mit Ruby on rails
 
 - Java
 - Kotlin
