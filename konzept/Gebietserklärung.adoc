@@ -1,0 +1,137 @@
+= Gebiete der Softwareentwicklung
+
+* Web development
+* Application development
+* Databases
+* Data science
+* Artificial Intelligence $\supsetneq$ Machine Learning
+* Cyber Security
+* Game development
+* Embedded systems
+* Operating systems
+
+== Web und App Entwicklung
+
+In der Web und Application Entwicklung geht es um die Entwicklung
+von Anwendungen für user.
+Diese Anwendungen sind das womit die meisten Leute direkt in Kontakt kommen.
+Als Beispiel, nehmen wir einmal Amazon. 
+Sie bieten mit ihrer Internet Seite etwas an, was unter die Kategorie der Webentwicklung fallen würde.
+Generell fällt alles darunter, was für den Browser spezifisch ist. +
+Amazon bietet aber auch mit ihrer Smartphone App eine Applikation an, 
+die unter den Bereich der App Entwicklung fallen würde.
+Der Unterschied zwischen den beiden Bereichen am einfachsten erklärt ist, 
+dass die Webentwicklung sich darauf spezifiziert Anwendungen für den Browser zu bauen,
+während die Appentwicklung sich darauf spezifiziert eine Anwendung direkt für ein oder
+mehrere Betriebssysteme zu bauen. Diese Betriebssysteme können, 
+Android, iOS, Windows, Linux und MacOs sein. +
+Im Prinzip überschneiden sich die beiden Bereiche als, 
+aber die Platform wo sie verwendet werden und damit die Mittel,
+die sie verwenden können unterscheiden sich und machen hier einen Unterschied in der Verwendung.
+
+Im Zuge dessen, 
+habe ich die beiden Bereiche jetzt als getrennt dargestellt und so war es eigentlich auch immer.
+Aber in den letzten Jahren hat sich das geändert mit dem Aufkommen der Cross-platform Entwicklung.
+Das Ziel hier ist es eine einzige Code base für alle Betriebssysteme zu haben 
+und eben nicht die Differenzierung zwischen App und Webentwicklung machen zu müssen. 
+Hier gibt es aber Einschränkungen, 
+da die Grundlegende Kommunikation im Web und in Apps anders ist und in der Realität eigentlich immer
+noch Code geschrieben werden muss, der Platform spezifisch ist.
+
+// == Databases
+
+// Datenbanken sind ein wichtiger Teil der Softwareentwicklung. 
+// Eigentlich alle Anwendungen, 
+// die für User entwickelt werden, 
+// müssen früher oder später eine Datenbank verwenden.
+// Hierbei,
+// spalten sich Datenbanken in zwei Gruppen. 
+// Die Relationalen Datenbanken,
+// so wie MySQL, 
+// die sich auf einen Schema beziehen und deren Objekte nach diesem aufgebaut sein müssen
+// und
+// nicht relationale Datenbanken, 
+// so wie MongoDB, 
+// die keinen Schema besitzen und Daten in jeder beliebigen Form annehmen.
+// Beide Modelle können von Vorteil sein, 
+// wo relationale Datenbanken durch den festen Schema meist schneller sind als nicht relationale,
+// weil der Schema eine gewisse Struktur vorgibt,
+// die das suchen verbessert.
+// Vor allem bei großen Datenmengen, 
+// kann aber eine gut strukturierte nicht relationale Datenbank auch Vorteile Bringen.
+
+== Data science
+
+Ist ein interdisziplinäres Feld indem es darum geht Wissen aus Daten zu gewinnen.
+Hierbei werden verschiedenste Methoden aus der Mathematik, Statistik und Informatik verwendet.
+Heutzutage sind einige Methoden zur Informationsgewinnung auch gestützt durch 
+Machine Learning Algorithmen.
+
+== Artificial Intelligence $\supsetneq$ Machine Learning (Künstliche Intelligenz und Maschinelles lernen)
+
+Der Bereich der Künstlichen Intelligenz umfasst sehr viele Konzepte und teil Bereiche.
+Momentan,
+ist vor allem der Teilbereich des Machine Learnings oder Maschinellen Lernens für viele sehr interessant.
+Das Hauptziel des Bereiches ist es intelligentes Verhalten zu automatisieren 
+und mithilfe von Computern und Algorithmen dar zu stellen.
+Wir alle haben in irgendeiner Form schon mit Algorithmen, 
+die unter den Bereich der Künstlichen Intelligenz fallen Kontakt gehabt.
+Sei es Alexa, 
+Siri,
+Google Assistent,
+die Webseite Akinator (falls ihr die noch kennt),
+GitHub Copilot,
+etc..
+
+Viele Firmen wollen jetzt Algorithmen aus dem Bereich der Künstlichen Intelligenz nutzen,
+weil es ein sehr vielversprechender und interessanter Zweig der Informatik ist,
+den viele Große Firmen verwenden.
+Dabei stellt sich manchmal die Frage, ob das wirklich notwendig ist, 
+aber das ist eine Frage für einen anderen Vortrag.
+
+== Cyber security 
+
+In der Cyber security,
+geht es um den Schutz von Daten vor Hackern 
+oder anderen Bedrohungen.
+Es geht häufig um die Minimierung von Wirtschaftlichen Schäden und generellen Risiken.
+Hierbei gibt es viele Festgesetzte Standards an die man sich halten kann,
+wie z.B. die 
+https://de.wikipedia.org/wiki/ISO/IEC-27000-Reihe[ISO/IEC-27000-Reihe].
+
+== Game development (Spieleentwicklung)
+
+Im Bereich der Spieleentwicklung gibt es auch unterschiedliche Sprachen die verwendet werden.
+Es ist ein Bereich, 
+der wahrscheinlich viele von euch interessiert.
+Durch VR und ähnliche Entwicklungen in den letzten Jahren,
+sind die Möglichkeiten,
+was in dieser Branche möglich ist nochmal gestiegen.
+Leider sind in der Spieleentwicklung die Anforderungen sehr hoch 
+und die Bezahlung im Vergleich zu anderen Bereichen der Softwareentwicklung sher schlecht.
+
+== Embedded systems (Eingebettete Systeme)
+
+In eingebetteten Systemen werden häufig für den Benutzer unsichtbare Aufgaben verrichtet.
+Eingebettete Systeme übernehmen hier verschiedene Aufgaben in einem Großen System,
+wie Überwachungs-, Steuerungs- oder Regelfunktionen oder sind für Daten- bzw. Signalverarbeitung 
+zuständig.
+
+Beispiele, 
+wo eingebettete Systeme zum Einsatz kommen sind 
+Flugzeuge, Kraftfahrzeuge, Kühlschränke, Fernseher, DVD-Player und vieles mehr.
+Häufig handelt es sich bei eingebetteten Systemen um eine Vielzahl von ansonsten
+autonomen Systemen, die miteinander Vernetzt werden.
+
+== Operating systems (Betriebssysteme)
+
+Betriebssysteme sind eine Zusammenstellung von Computerprogrammen, die die Systemressourcen eines Computers wie Arbeitsspeicher, Festplatten, Ein- und Ausgabegeräte verwaltet und diesen Anwendungsprogramme zur Verfügung stellen.
+Sie bilden dadurch eine Schnittstelle zwischen Hardware Komponenten und der Anwendungssoftware.
+Sie sind eine Abstraktion auf der unterliegenden Hardware.
+Durch das Betriebssystem,
+haben Anwendungen die Möglichkeit die eigentlichen
+Spezifikationen der unterliegende Hardware zu ignorieren 
+und können mit ihr kommunizieren, 
+als wäre es immer dieselbe.
+
+

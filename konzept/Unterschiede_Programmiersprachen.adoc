@@ -1,0 +1,178 @@
+= Einführung in Unterschiede zwischen Programmiersprachen
+
+Jetzt kommt eine Einführung in die Unterschiede von Programmiersprachen.
+Auch hier sind die Unterschiede nicht alle, 
+die existieren aber sie sind eine Möglichkeit Sprachen in Kategorien ein zu teilen
+und ihre Unterschiede auf einer Oberflächlichen Ebene zu sehen.
+
+== Paradigmen
+
+In Programmiersprachen gibt es verschiedene Paradigmen, 
+die in diesen Sprachen unterschiedliche Formen von Code möglich machen.
+Hierbei ist ein Paradigma eine Form,
+wie die Kontrollstrukturen und das Verhalten des Codes strukturiert werden.
+Viele Sprachen unterstützen nicht nur ein Paradigma,
+sondern mehrere,
+wobei der Fokus und die Optimierung meistens auf einem bestimmtem liegt.
+
+=== Prozedural
+
+Die wohl älteste Form des Strukturierten Programmieren ist das Paradigma des
+Prozeduralen programmieren.
+Hierbei ist der Flow des Programms von oben nach unten aufgebaut.
+Das heißt man kann den Code immer als einen Strang von oben nach unten verfolgen.
+Einzelne Teile des Programms können in Funktionen ausgelagert werden, 
+die eine Abstraktion ermöglichen und somit das lesen vereinfachen.
+Außerdem, 
+kann man Gruppen von Daten zu Strukturen zusammenfassen 
+und sie somit gemeinsam verändern 
+und einsehen.
+
+=== Objekt orientierte Programmierung
+
+In der Objekt orientierten Programmierung,
+werden Daten die Zusammengehören zu Objekten zusammengefasst,
+die Eigenschaften und verhalten haben.
+Zum Beispiel kann man ein Auto als ein Objekt auffassen, 
+dass unterschiedliche Eigenschaften, 
+wie Farbe, PS, etc. hat.
+Dieses Auto hätte dann eine Verhalten Fahren,
+dass die Position des Autos basierend auf verschiedenen anderen 
+Eigenschaften verändert.
+
+Auch hier gibt es Prozedurale Eigenschaften, 
+weil das Auto irgendwann dazu gebracht werden muss zu fahren im 
+Lauf des Programms.
+
+=== Funktional
+
+Die Funktionale Programmierung erinnert im ersten Blick an die Prozedurale 
+Programmierung.
+Auch hier kann man den Programmflow von oben nach unten verfolgen.
+Allerdings hat die Funktionale Programmierung die besondere Eigenschaft,
+dass sie Zustand nicht verändert.
+Anstatt die Eigenschaften einer bestimmten Struktur von Daten zu verändern
+werden Funktionen auf diese Struktur angewendet, 
+die eine Kopie der eingehenden Struktur macht
+und die Veränderungen dann in dieser Kopie gespeichert sind.
+
+Hierbei liegt der Fokus darauf,
+dass wenn man ein bestimmtes x in eine Funktion eingibt,
+immer das selbe y rauskommt, 
+wenn das x gleich ist.
+Das macht es besonders einfach über den Zustand von 
+Dingen nach zu denken,
+weil dinge sich niemals wirklich verändern.
+
+Vor allem in den letzten Jahren gibt es eine Zuwanderung zur Funktionalen Programmierung
+und weg von der Objekt orientierten.
+Weil gerade in der Objekt orientierten Programmierung Objekte ihren Zustand verändern
+und dadurch das Nachdenken über den Programmierflow erschwert wird.
+
+
+== Typsicherheit
+
+Typsichere Sprachen zeichnen sich dadurch aus, 
+dass sie Fehler aufzeigen,
+wenn zwei Typen nicht miteinander kompatible sind.
+Hierbei ist ein Typ z.B. ein String und ein Integer,
+wie ihr sie aus Java kennt. 
+Diese können nicht voneinander subtrahiert werden.
+In Java würde ein solcher versuch zu einem Compile Fehler 
+führen, was die Sprache Typsicher macht.
+
+
+== Statically vs dynamically typed
+
+Statisch typisierte Sprachen,
+sind Sprachen wie Java.
+Wenn in Java einer Variable ein Wert zugewiesen wird, 
+dann muss dieser deklariert werden. 
+Als Beispiel `int x = 3;`.
+Hier ist der Datentyp direkt bei der Variable beistehend
+und x kann jetzt nicht mehr zu einem String geändert werden.
+Dadurch ist die Sprache statisch typisiert.
+
+In Sprachen wie python sind befehle wie `x = 3; x = "Hello There";`
+möglich, 
+was sie zu einer dynamisch typisierten Sprache macht,
+weil Typen verändert werden können 
+und nicht im Prozess der Kompilierung bekannt sind.
+
+
+== Compiled vs Interpreted
+
+Java ist eine Kompilierte Sprache,
+weil wenn der Befehl `javac` eingegeben wird, 
+die `java` Datei in eine `class` Datei kompiliert wird.
+Diese `class` Datei ist dann in einem Format so,
+dass sie von der JVM ausgeführt werden kann.
+Dieses umwandeln von einer Version von menschlich verstehbaren
+Code in Befehlssätze, 
+die von einem Computer verstanden werden kann,
+nennt man Kompilieren.
+
+Im Gegensatz zu kompilierten Sprachen gibt es interpretierte Sprachen
+wie JavaScript und Python. 
+In diesen Sprachen wird der Code direkt in 
+dem Format, dass Menschen lesen können interpretiert 
+und ausgeführt.
+
+Häufig ist es so,
+dass kompilierte Sprachen schneller sind als interpretierte,
+da die kompilierte Version von einem Computer schneller ausgeführt werden kann.
+
+== https://en.wikipedia.org/wiki/Domain-specific_language[DSL] vs https://en.wikipedia.org/wiki/General-purpose_language[GPL]
+
+Der unterschied zwischen DSL (domain specific languages, deutsch: Domänen spezifische Sprachen) und
+GPL (general purpose languages, deutsch: Allzwecksprachen) ist der,
+dass DSL häufig nur in einem bestimmten Bereich verwendet werden 
+und verwendet werden können,
+wobei GPL in allen Bereichen der Informatik Anwendung finden 
+und verwendet werden können.
+Java ist zum Beispiel eine GPL,
+weil sie auf unterschiedlichsten Systemen verwendet werden können 
+und unterschiedliche Aufgaben verrichten kann.
+Die Linie zwischen den beiden Arten ist nicht immer klar,
+weil viele Sprachen Domänenspezifische Eigenschaften besitzen,
+aber auf der anderen Seite immer noch sehr weit verbreitet ist.
+Wohingegen andere Sprachen nicht direkt spezifische Eigenschaften 
+besitzen,
+aber trotzdem nur in einer bestimmten Domäne wirklich Anwendung finden.
+
+
+== Garbage collected vs manuelle Speicherallokation
+
+Der Unterschied zwischen Sprachen mit Garbage collection
+und manueller Speicherallokation,
+ist nur in ihrem Umgang mit Speicher.
+In Sprachen mit manueller Speicherallokation
+muss für jede Struktur,
+die vom Benutzer erstellt wird Speicher angefordert werden.
+Dieser Speicher steht dem Nutzer dann zur Verfügung 
+und kann von ihm beliebig modifiziert werden.
+Dieser Speicher muss dann,
+bevor das Programm beendet wird,
+auch wieder freigegeben werden,
+weil sonst der Zugriff auf diesen gesperrt bleibt und
+dem Computer unnötig Ressourcen klaut.
+In Sprachen mit einer Garbage collection,
+wird der Speicher von der Sprache angefordert
+und wieder Freigegeben.
+Der Benutzer der Sprache muss sich also keine
+Gedanken darum machen.
+
+Der Vorteil von Sprachen mit manueller Speicherallokation
+ist, 
+dass sie meist schneller sind als Sprachen mit
+einem Garbage collector, 
+weil sie keine Zusätzliche Funktion brauchen,
+die immer wieder nachguckt, 
+ob Speicher wieder freigegeben werden kann.
+Auf der anderen Seite, 
+braucht dieser manuelle Vorgang viel mehr Aufwand,
+weil nicht freigegebener Speicher zu Problemen führen kann
+und es in großen Programmen schwierig wird den Überblick zu behalten,
+was bereits wieder freigegeben wurde 
+und was nicht.
+
