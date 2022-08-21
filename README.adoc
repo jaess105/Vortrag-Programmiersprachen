@@ -1,5 +1,7 @@
-= Programmiersprachen
+= Programmiersprachen: Ein genereller Überblick, welche es gibt und wo sie verwendet werden.
 :toc:
+:author: Jannik Leon Esser
+:email: jaess105@hhu.de
 
 == Inkludierte Programmiersprachen
 
@@ -20,6 +22,7 @@ Programmiersprachen, die definitiv aufgeführt werden:
 - Golang
 
 - C und C++
+- Rust
 - C# (C Sharp)
 
 - Python
@@ -36,6 +39,7 @@ Vielleicht:
 - Ada
 - Basic
 
+- Common LISP
 - Clojure
 - Haskell
 
@@ -55,6 +59,7 @@ Vielleicht:
 * Unterschied https://en.wikipedia.org/wiki/Domain-specific_language[DSL] 
 und
 https://en.wikipedia.org/wiki/General-purpose_language[GPL]
+* Garbage collected vs manuelle Speicher Allokation
 
 
 
