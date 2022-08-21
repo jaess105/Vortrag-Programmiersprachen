@@ -8,3 +8,7 @@
 include::Gebietserklärung.adoc[leveloffset=+1]
 
 include::Unterschiede_Programmiersprachen.adoc[leveloffset=+1]
+
+include::Programmiersprachen.adoc[leveloffset=+1]
+
+include::Zusammenfassung.adoc[leveloffset=+1]
