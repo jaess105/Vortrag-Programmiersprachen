@@ -123,17 +123,7 @@ wie Clojure, Kotlin und Scala,
 welche auch in vielen Bereichen beliebt sind.
 
 
-== Objective-C und Swift
 
-Objective-C und Swift sind Programmiersprachen,
-die hauptsächlich, wenn nicht sogar ausschließlich, 
-von Apples Ökosystem verwendet werden.
-Swift ist hierbei der Nachfolger von Objective-C,
-in dem Sinne,
-dass auf Apple Geräten Objective-C zusammen mit Swift im
-selben Programm ausgeführt werden können.
-Die beiden Sprachen sind fast unerlässlich für 
-Programme auf Apple Geräten aber haben außerhalb dessen keine Existenzberechtigung.
 
 == Dart
 
@@ -168,7 +158,7 @@ künstlichen Intelligenz
 und eingebetteten Systemen,
 sowie der Spiele Entwicklung.
 
-== C, C++ und Rust
+== C, C++ & Rust
 
 C, C++ und Rust sind alle drei Sprachen ohne garbage Collection,
 die hauptsächlich für eingebettete Systeme verwendet werden.
@@ -238,7 +228,7 @@ Da Python eine vergleichsweise langsame Sprache ist,
 bietet sie sich nicht an für eingebettete Systeme,
 die häufig eine schnelle Ausführungszeit benötigen.
 
-== R und Matlab
+== R & Matlab
 
 Zu guter letzte,
 kommen wir noch zu R und Matlab.
@@ -251,6 +241,18 @@ wird Matlab häufig für Mathematische Probleme verwendet.
 Beide Sprachen können durchaus für mehr verwendet werde als ihre Domäne,
 aber dennoch würden die meisten Programmierer nicht zu diesen Sprachen
 greifen um Probleme außerhalb ihrer Domäne zu lösen.
+
+== Objective-C und Swift
+
+Objective-C und Swift sind Programmiersprachen,
+die hauptsächlich, wenn nicht sogar ausschließlich, 
+von Apples Ökosystem verwendet werden.
+Swift ist hierbei der Nachfolger von Objective-C,
+in dem Sinne,
+dass auf Apple Geräten Objective-C zusammen mit Swift im
+selben Programm ausgeführt werden können.
+Die beiden Sprachen sind fast unerlässlich für 
+Programme auf Apple Geräten aber haben außerhalb dessen keine Existenzberechtigung.
 
 // In meinen Augen, 
 // und das ist wirklich das einzige Statement, 

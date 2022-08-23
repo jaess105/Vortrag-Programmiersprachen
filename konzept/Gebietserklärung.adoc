@@ -2,10 +2,8 @@
 
 * Web development
 * Application development
-* Databases
 * Data science
 * Artificial Intelligence $\supsetneq$ Machine Learning
-* Cyber Security
 * Game development
 * Embedded systems
 * Operating systems
@@ -89,15 +87,15 @@ den viele Große Firmen verwenden.
 Dabei stellt sich manchmal die Frage, ob das wirklich notwendig ist, 
 aber das ist eine Frage für einen anderen Vortrag.
 
-== Cyber security 
+// == Cyber security 
 
-In der Cyber security,
-geht es um den Schutz von Daten vor Hackern 
-oder anderen Bedrohungen.
-Es geht häufig um die Minimierung von Wirtschaftlichen Schäden und generellen Risiken.
-Hierbei gibt es viele Festgesetzte Standards an die man sich halten kann,
-wie z.B. die 
-https://de.wikipedia.org/wiki/ISO/IEC-27000-Reihe[ISO/IEC-27000-Reihe].
+// In der Cyber security,
+// geht es um den Schutz von Daten vor Hackern 
+// oder anderen Bedrohungen.
+// Es geht häufig um die Minimierung von Wirtschaftlichen Schäden und generellen Risiken.
+// Hierbei gibt es viele Festgesetzte Standards an die man sich halten kann,
+// wie z.B. die 
+// https://de.wikipedia.org/wiki/ISO/IEC-27000-Reihe[ISO/IEC-27000-Reihe].
 
 == Game development (Spieleentwicklung)
 
