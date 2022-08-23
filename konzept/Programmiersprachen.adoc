@@ -1,5 +1,22 @@
 = Programmiersprachen
 
+Bei vielen hier gelisteten Programmiersprachen gibt es 
+immer Leute,
+die die Sprache lieben 
+und welche, die sie hassen.
+An dieser Stelle möchte ich Bjarne Stroustrup zitieren,
+den Entwickler der Programmiersprache C++, 
+die auch später noch erwähnt werden wird:
+
+[quote, Bjarne Stroustrup, The C++ Programming Language]
+There are only two kinds of languages: the ones people complain about and the ones nobody uses.
+
+Keine Sprache ist perfekt und die meisten Sprachen sind sinnvoll in bestimmten 
+Anwendungsgebieten.
+Man muss auch nicht jede Sprache lieben 
+oder können aber es hilft die Grundkonzepte und Anwendungsgebiete für viele Sprachen zu kennen
+um zu wissen, 
+welche Sprache an welcher Stelle sinnvoll oder hilfreich sein könnte.
 
 == HTML & CSS 
 
@@ -10,20 +27,20 @@ Das Web basiert auf der Verwendung von HTML
 und ohne kann eine Webseite nicht existieren.
 
 Somit werden HTML und CSS hauptsächlich im Web Anwendungen verwendet, 
-aber durch diverse Werkzeuge kann man mithilfe
+aber durch diverse andere Sprachen kann man mithilfe
 von HTML auch Anwendungen für Android, iOS und andere Betriebssysteme bauen.
 
 Viele scheuen davor Zurück HTML als eine Programmiersprache zu bezeichnen,
 weil es keinerlei verhalten besitzt 
 und grundlegende Dinge, 
-wei if Abfragen oder Schleifen zur Kontrolle eines Programms fehlen.
-Dennoch ist HTML unerlässlich für die Entwicklung für Web Anwendungen,
+wie if Abfragen oder Schleifen zur Kontrolle eines Programms fehlen.
+Dennoch ist HTML unerlässlich für die Entwicklung von Web Anwendungen,
 weshalb es hier aufgeführt ist.
 
 == JavaScript und TypeScript
 
 Während HTML und CSS das Aussehen einer Webseite bestimmten,
-bestimmt JavaScript das verhalten auf einer HTML Seite.
+bestimmt JavaScript das verhalten.
 
 JavaScript ist eine interpretierte Sprache,
 die dynamisch typisiert 
@@ -32,11 +49,11 @@ Sie besitzt einen garbage collector
 und unterstützt mehrere Paradigmen.
 
 Sie wurde im Jahr 1995 von Netscape für dynamische HTML Seiten im Webbrowser entwickelt.
-Heute wird JavaScript nicht mehr nur verwendet um Webseiten dynamisch darzustellen 
+Heute wird JavaScript nicht nur verwendet um Webseiten dynamisch darzustellen 
 sondern wird auch im Hintergrund verwendet um Funktionalitäten auf Servern möglich 
 zu machen.
 
-JavaScript ist wohl eine der Umstrittensten Sprachen die es gibt. 
+JavaScript ist wohl eine der umstrittensten Sprachen die es gibt. 
 Es existieren tausende von Frameworks und sie wird von vielen geliebt 
 aber von mindestens genau so vielen gehasst.
 
@@ -48,17 +65,17 @@ für normale Applikationen auf Android, iOS und anderen Systemen genutzt.
 Sie findet auch ihre Anwendung in Machine Learning, Data science und game development.
 
 JavaScript ist eine Sprache mit vielen Anwendungsmöglichkeiten,
-die durch ihre starke Generalität und weite Verbreitung möglich wurden.
+die durch ihre Generalität und weite Verbreitung möglich wurden.
 
 === TypeScript
 
 TypeScript ist ein sogenanntes Superset von JavaScript. 
 Das bedeutet,
-dass TypeScript JavaScript einfach erweitert.
+dass TypeScript JavaScript erweitert.
 Die wichtigen Feature, 
-die TypeScript bei vielen beliebt machen sind,
+die TypeScript bei vielen Programmierern beliebt macht sind,
 zum einen die statische Typisierung der Sprache und die damit einhergehende Typsicherheit,
-welche eine frühe Erkennung von bugs möglich macht
+welche eine frühe Erkennung von Bugs möglich macht
 und zum anderen die Eigenschaft, 
 dass TypeScript eine Sprache ist, 
 die einen Transpiler verwendet.
@@ -74,7 +91,7 @@ in denen diese Features nicht existierten.
 Ist eine dynamisch typisierte, 
 interpretierte Sprache, 
 mit einem garbage collector und Unterstützung für viele Paradigmen.
-PHP wird hauptsächlich zur Erstellung von Webseiten verwendet wird.
+PHP wird hauptsächlich zur Erstellung von Webseiten verwendet.
 Im Gegensatz zu JavaScript wird die Sprache nicht direkt im 
 Browser ausgeführt sondern vom Server, 
 welcher dann eine veränderte Seite basierend auf dem PHP Code an 
@@ -82,7 +99,7 @@ den User schickt.
 
 PHP wird ausschließlich in der Webentwicklung verwendet 
 und betreibt Frameworks wie Wordpress 
-und Internetseiten, wei Wikipedia.
+und Internetseiten, wie Wikipedia.
 
 == Ruby 
 
@@ -107,13 +124,14 @@ die einen garbage collector verwendet.
 
 Java ist vor allem aufgrund der Java Virtual Machine (JVM) sehr beliebt,
 welche eine Plattformunabhängigkeit ermöglicht.
-Diese Unabhängigkeit sorgt auch dafür, 
-dass sie die Grundlage für Android Apps bildet.
+Diese Unabhängigkeit sorgte auch dafür, 
+dass sie für die Grundlage von Android Apps gewählt wurde.
 
-Heute wird Java für Web und App Entwicklung verwendet, 
-sowie für data science, 
+Heute wird Java hauptsächlich für Web und App Entwicklung verwendet, 
+aber auch für data science, 
 künstliche Intelligenz,
-Spieleentwicklung und auch auf Eingebetteten Systemen.
+Spieleentwicklung 
+und auch teilweise für eingebettete Systeme.
 
 Auch wenn Java bei vielen Programmierern sehr verhasst ist,
 wird sie durch die JVM und ihre weite Verbreitung
@@ -122,15 +140,26 @@ Die JVM ermöglicht auch die Verwendung von anderen Sprachen
 wie Clojure, Kotlin und Scala,
 welche auch in vielen Bereichen beliebt sind.
 
+== Kotlin
 
+Kotlin ist in vielen Dingen ähnlich zu Java.
+Kotlin arbeitet auch auf der JVM und kann sogar mit Java Code kommunizieren.
+Allerdings ist Kotlin etwas entfernter von der objektorientierten Programmierung
+und bietet neue Funktionalitäten,
+die in Java nicht zur Verfügung stehen.
 
+Kotlin kann in fast allen Bereichen verwendet werden,
+wo auch Java verwendet werden kann.
+Hauptsächlich wird Kotlin allerdings in der 
+Android Appentwicklung verwendet 
+und hat dort auch Java in Beliebtheit überholt.
 
 == Dart
 
 Dart ist eine Objekt orientierte Sprache,
-die aber auch andere Paradigmen unterstützt,
-mit einem garbage collector,
-die sich sowohl statisch als auch dynamisch typisiert verhalten kann
+die aber auch andere Paradigmen unterstützt.
+Sie nutzt einen garbage collector
+und kann sich sowohl statisch als auch dynamisch typisiert verhalten,
 durch die Verwendung von unterschiedlichen Schlüsselwörtern.
 Sie wurde von Google entwickelt und war ursprünglich als Nachfolger für JavaScript gedacht.
 Dart kann zu nativen Code für die Appentwicklung kompiliert werden,
@@ -144,12 +173,14 @@ findet sie momentan nicht viel Verwendung für direkte App- oder Webentwicklung.
 
 == Golang
 
-Statisch typisierte, kompilierte Sprache mit garbage collection.
-Go kann auch zu JavaScript transpiled werden.
+Golang oder kurz Go,
+ist eine statisch typisierte,
+kompilierte Sprache mit garbage collection.
+// Go kann auch zu JavaScript transpiled werden.
 Go wird unter anderem auch von Google, Uber und Twitch benutzt,
 wobei Go sogar von Google entwickelt wurde.
 
-Go ist vor allem für eine gute performance und einfache Lesbarkeit bekannt.
+Go ist vor allem für eine gute Performance und einfache Lesbarkeit bekannt.
 
 Meistens wird Go für die Entwicklung von Infrastruktur für Web Anwendungen
 verwendet,
@@ -167,15 +198,15 @@ die nur Prozedurale Programmierung unterstützt.
 Auf der anderen Seite ist C eine der am weitesten verbreiteten Sprachen
 und ist vor allem dafür bekannt, 
 dass sie die Grundlage für sehr viele Sprachen wie 
-C++, Java, Python, Objective-C und viele mehr Bildet,
-sowie die Grundlage für fast alle bekannten Betriebssysteme.
+C++, Java, Python, Objective-C, C# und viele mehr Bildet.
+Sie ist auch die Grundlage für fast alle bekannten Betriebssysteme.
 
 C++ wird von ihrem Entwickler als Superset von C mit wenigen ausnahmen bezeichnet.
 Ein großer unterschied zwischen C und C++ ist das unterstützen von Objekt orientierter
 Programmierung.
 Sie wird auch heute noch viel Verwendet für eingebettete Systeme aber auch
-für App- und Web Entwicklung, 
-sowie Spieleentwicklung, 
+für App- und Web Entwicklung.
+Auch in der Spieleentwicklung wird sie viel verwendet, 
 da sie die Grundlage für bekannte Engines wie die Unreal Engine bildet.
 
 Rust ist die neuste von den drei genannten Programmiersprachen und
@@ -185,6 +216,7 @@ und andere neuere Konzepte eine große Beliebtheit.
 Das Ownership Konzept ermöglicht hierbei eine besondere Art
 über Speicher nach zu denken,
 welche das Programmieren stark vereinfacht und Bugs vorbeugt.
+Rust wird vor allem, wie C, in eingebetteten Systemen verwendet. 
 
 == C# (C Sharp)
 
@@ -203,7 +235,7 @@ sie kann aber inzwischen auch auf macOS, iOS und Android verwendet werden
 und bietet auch dort die Möglichkeit der Applikationsentwicklung.
 Aber auch in der Webentwicklung findet C# Anwendung.
 
-C# und das .NET Framework ermöglichen auch die Verwendung und inkooperation von
+C# und das .NET Framework ermöglichen auch die Verwendung und Inkorporation von
 anderen Sprachen wie A#, F# und viele andere.
 
 == Python
@@ -218,7 +250,7 @@ dynamische Typisierung
 und Typsicherheit.
 
 Python wird fast überall verwendet.
-Im Machine learning Bereich, 
+Im Machine learning Bereich
 hat Python Java als die beliebteste Sprache abgelöst.
 Auch in der Webentwicklung kann Python für fast alles verwendet werden,
 selbst anstatt Javascript durch Projekte wie Brython.
@@ -226,7 +258,21 @@ selbst anstatt Javascript durch Projekte wie Brython.
 Die einzige Ausnahme für den Verwendungsbereich sind eingebettete Systeme.
 Da Python eine vergleichsweise langsame Sprache ist,
 bietet sie sich nicht an für eingebettete Systeme,
-die häufig eine schnelle Ausführungszeit benötigen.
+die häufig eine schnelle Ausführungszeit und geringen Speicher Verbrauch benötigen.
+
+
+== Objective-C und Swift
+
+Objective-C und Swift sind Programmiersprachen,
+die hauptsächlich, wenn nicht sogar ausschließlich, 
+von Apples Ökosystem verwendet werden.
+Swift ist hierbei der Nachfolger von Objective-C,
+in dem Sinne,
+dass auf Apple Geräten Objective-C zusammen mit Swift im
+selben Programm ausgeführt werden können.
+Die beiden Sprachen sind fast unerlässlich für 
+Programme auf Apple Geräten aber haben außerhalb dessen keine große Verwendung.
+
 
 == R & Matlab
 
@@ -242,31 +288,4 @@ Beide Sprachen können durchaus für mehr verwendet werde als ihre Domäne,
 aber dennoch würden die meisten Programmierer nicht zu diesen Sprachen
 greifen um Probleme außerhalb ihrer Domäne zu lösen.
 
-== Objective-C und Swift
-
-Objective-C und Swift sind Programmiersprachen,
-die hauptsächlich, wenn nicht sogar ausschließlich, 
-von Apples Ökosystem verwendet werden.
-Swift ist hierbei der Nachfolger von Objective-C,
-in dem Sinne,
-dass auf Apple Geräten Objective-C zusammen mit Swift im
-selben Programm ausgeführt werden können.
-Die beiden Sprachen sind fast unerlässlich für 
-Programme auf Apple Geräten aber haben außerhalb dessen keine Existenzberechtigung.
-
-// In meinen Augen, 
-// und das ist wirklich das einzige Statement, 
-// dass ich nur aus meiner Sicht machen kann,
-// werden solche Domänen Spezifische sprachen häufig von
-// Leuten verwendet,
-// die selber wenig Erfahrung mit Programmierung 
-// und anderen Sprachen haben,
-// da die Konzepte in diesen Sprachen häufig speziell für die Domäne gelöst werden
-// und nicht in einem Generellen Ansatz, 
-// wie andere Programmiersprachen.
-// Dieses Statement muss mit einer Hand voll Salz genossen werden,
-// da ich selber nur wenig Berührung mit diesen Sprachen hatte 
-// und auch andere Programmierer, 
-// die ich kenne, 
-// lieber einen Bogen um diese Sprachen machen.
 
