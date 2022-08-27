@@ -23,9 +23,10 @@ dass die Webentwicklung sich darauf spezifiziert Anwendungen für den Browser zu
 während die Appentwicklung sich darauf spezifiziert eine Anwendung direkt für ein oder
 mehrere Betriebssysteme zu bauen. Diese Betriebssysteme können, 
 Android, iOS, Windows, Linux und MacOs sein. +
-Im Prinzip überschneiden sich die beiden Bereiche als, 
+Im Prinzip überschneiden sich die beiden Bereiche in ihrem Ziel, 
 aber die Platform wo sie verwendet werden und damit die Mittel,
-die sie verwenden können unterscheiden sich und machen hier einen Unterschied in der Verwendung.
+die sie verwenden können, 
+sind unterschiedlich und führen zu einer anderen Verwendung.
 
 Im Zuge dessen, 
 habe ich die beiden Bereiche jetzt als getrennt dargestellt und so war es eigentlich auch immer.
@@ -60,10 +61,17 @@ noch Code geschrieben werden muss, der Platform spezifisch ist.
 
 == Data science
 
-Ist ein interdisziplinäres Feld indem es darum geht Wissen aus Daten zu gewinnen.
+Data science, ist ein interdisziplinäres Feld indem es darum geht Wissen aus Daten zu gewinnen.
 Hierbei werden verschiedenste Methoden aus der Mathematik, Statistik und Informatik verwendet.
 Heutzutage sind einige Methoden zur Informationsgewinnung auch gestützt durch 
 Machine Learning Algorithmen.
+
+Ein Beispiel für eine Data science Anwendung ist Kundensegmentierung im Marketing.
+Hier werden Kunden in Gruppen unterschieden,
+die ähnliches Kaufverhalten haben um basierend darauf Vorschläge zu machen, 
+welche Produkte ihnen gefallen könnten.
+Data science wird hier verwendet um basierend auf den vorhandenen Daten 
+der Kunden Gruppen zu bilden.
 
 == Artificial Intelligence $\supsetneq$ Machine Learning (Künstliche Intelligenz und Maschinelles lernen)
 
