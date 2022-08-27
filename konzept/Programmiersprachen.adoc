@@ -9,7 +9,7 @@ sorgt CSS dafür, dass sie schön aussieht.
 Das Web basiert auf der Verwendung von HTML 
 und ohne kann eine Webseite nicht existieren.
 
-Somit werden HTML und CSS hauptsächlich im Web Anwendungen verwendet, 
+Somit werden HTML und CSS hauptsächlich in Web Anwendungen verwendet, 
 aber durch diverse Werkzeuge kann man mithilfe
 von HTML auch Anwendungen für Android, iOS und andere Betriebssysteme bauen.
 
