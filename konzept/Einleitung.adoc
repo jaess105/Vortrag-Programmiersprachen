@@ -1,0 +1,34 @@
+= Einleitung
+
+Willkommen zum Vortrag 
+"Programmiersprachen: Ein genereller Überblick, welche es gibt und wo sie verwendet werden".
+Wir werden uns als erstes einige Gebiete der Programmierung angucken,
+in denen die Wahl der Programmiersprache eine große Rolle spielt.
+Danach,
+werden wir uns unterschiedliche Eigenschaften von Programmiersprachen angucken,
+die helfen Programmiersprachen voneinander zu unterscheiden.
+Zuletzt, 
+kommen wir dann zu dem eigentlich wichtigsten Teil nämlich die Eigentlichen 
+Programmiersprachen,
+die es gibt 
+und welchen der Gebiete sie verwendet werden.
+
+Weder die Gebiete, 
+noch die Unterschiede, 
+noch die Programmiersprachen, 
+die wir uns heute angucken werden sind vollständig.
+Zu versuchen eine Liste zu schreiben in
+denen von jeder dieser Gruppen alles aufgelistet
+wird, 
+wäre eine Sisyphos Aufgabe.
+Die Informatik ist kein statisches Fachgebiet indem 
+einmal alles festgesetzt werden kann.
+Jeden Tag wachsen ihre Möglichkeiten 
+und immer neue Sachen werden erfunden 
+und geschaffen.
+
+Fragen zu dem Vortrag
+werde ich gerne danach beantworten, 
+wenn uns noch etwas Zeit bleibt.
+Ansonsten könnt ihr mich 
+bei Interesse auch Online erreichen und Fragen stellen.
