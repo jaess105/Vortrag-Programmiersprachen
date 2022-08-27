@@ -157,7 +157,7 @@ auch wieder freigegeben werden,
 weil sonst der Zugriff auf diesen gesperrt bleibt und
 dem Computer unnötig Ressourcen klaut.
 In Sprachen mit einer Garbage collection,
-wird der Speicher von der Sprache angefordert
+wird der Speicher von der Sprache automatisch angefordert
 und wieder Freigegeben.
 Der Benutzer der Sprache muss sich also keine
 Gedanken darum machen.
@@ -166,7 +166,7 @@ Der Vorteil von Sprachen mit manueller Speicherallokation
 ist, 
 dass sie meist schneller sind als Sprachen mit
 einem Garbage collector, 
-weil sie keine Zusätzliche Funktion brauchen,
+weil sie keine zusätzliche Funktion brauchen,
 die immer wieder nachguckt, 
 ob Speicher wieder freigegeben werden kann.
 Auf der anderen Seite, 
