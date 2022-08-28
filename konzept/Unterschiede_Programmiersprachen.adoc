@@ -122,23 +122,23 @@ Häufig ist es so,
 dass kompilierte Sprachen schneller sind als interpretierte,
 da die kompilierte Version von einem Computer schneller ausgeführt werden kann.
 
-== https://en.wikipedia.org/wiki/Domain-specific_language[DSL] vs https://en.wikipedia.org/wiki/General-purpose_language[GPL]
+// == https://en.wikipedia.org/wiki/Domain-specific_language[DSL] vs https://en.wikipedia.org/wiki/General-purpose_language[GPL]
 
-Der unterschied zwischen DSL (domain specific languages, deutsch: Domänen spezifische Sprachen) und
-GPL (general purpose languages, deutsch: Allzwecksprachen) ist der,
-dass DSL häufig nur in einem bestimmten Bereich verwendet werden 
-und verwendet werden können,
-wobei GPL in allen Bereichen der Informatik Anwendung finden 
-und verwendet werden können.
-Java ist zum Beispiel eine GPL,
-weil sie auf unterschiedlichsten Systemen verwendet werden können 
-und unterschiedliche Aufgaben verrichten kann.
-Die Linie zwischen den beiden Arten ist nicht immer klar,
-weil viele Sprachen Domänenspezifische Eigenschaften besitzen,
-aber auf der anderen Seite immer noch sehr weit verbreitet ist.
-Wohingegen andere Sprachen nicht direkt spezifische Eigenschaften 
-besitzen,
-aber trotzdem nur in einer bestimmten Domäne wirklich Anwendung finden.
+// Der unterschied zwischen DSL (domain specific languages, deutsch: Domänen spezifische Sprachen) und
+// GPL (general purpose languages, deutsch: Allzwecksprachen) ist der,
+// dass DSL häufig nur in einem bestimmten Bereich verwendet werden 
+// und verwendet werden können,
+// wobei GPL in allen Bereichen der Informatik Anwendung finden 
+// und verwendet werden können.
+// Java ist zum Beispiel eine GPL,
+// weil sie auf unterschiedlichsten Systemen verwendet werden können 
+// und unterschiedliche Aufgaben verrichten kann.
+// Die Linie zwischen den beiden Arten ist nicht immer klar,
+// weil viele Sprachen Domänenspezifische Eigenschaften besitzen,
+// aber auf der anderen Seite immer noch sehr weit verbreitet ist.
+// Wohingegen andere Sprachen nicht direkt spezifische Eigenschaften 
+// besitzen,
+// aber trotzdem nur in einer bestimmten Domäne wirklich Anwendung finden.
 
 
 == Garbage collected vs manuelle Speicherallokation
