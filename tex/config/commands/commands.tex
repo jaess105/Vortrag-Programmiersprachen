@@ -1,0 +1,15 @@
+\makeatletter % we need to use kernel commands
+
+\newcommand{\WithImages}[1]{%
+    \begin{columns}
+        \begin{column}{.5\framewidth}
+            #1
+        \end{column}
+        \begin{column}{.4\framewidth}
+            \checknextarg}
+
+\newcommand{\checknextarg}{\@ifnextchar\stopimages{ \stopImageTaking }{ \slurpNextArg }}
+\newcommand{\slurpNextArg}[1]{ \includegraphics[width=2cm]{#1} \checknextarg}
+\newcommand{\stopImageTaking}[1]{ \end{column} \end{columns} }
+
+\makeatother
