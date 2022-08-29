@@ -1,21 +1,82 @@
 \subsection{Unterschiede in Programmiersprachen}
 
 \begin{frame}{Paradigmen}
-
+    \begin{itemize}
+        \item Unterschiedliche Arten Funktionalitäten darzustellen
+        \item Prozedural, objektorientiert, funktional
+    \end{itemize}
 \end{frame}
 
-\begin{frame}{Typsicherheit}
 
+
+\begin{frame}{Prozedural}
+    \begin{itemize}
+        \item Älteste Form des strukturierten Programmierens
+        \item Programm flow von oben nach unten
+        \item Abstraktionen durch Funktionen
+        \item Zusammenhalten von Daten durch Strukturen möglich
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Objektorientiert}
+    \begin{itemize}
+        \item Zusammenfassen von Daten als Objekte
+        \item Objekte haben Eigenschaften und Verhalten
+        \item Prozedurale Eigenschaften vorhanden durch Programmflow von oben nach unten
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Funktional}
+    \begin{itemize}
+        \item Erinnert an prozedurale Programmierung
+        \item Zustand von Strukturen wird nicht verändert
+        \item Funktionen erstellen Kopien von ursprünglichen Strukturen mit Veränderungen
+        \item $x_1 = x_2 \Rightarrow f(x_1) = y \text{ und } f(x_2) = y$
+        \item Beliebtheit steigt
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Typsicherheit}
+    \begin{itemize}
+        \item Fehler Entdeckung bei inkompatiblen Typen
+        \item Typen sind z.B. \inlinecode{int} und \inlinecode{String}
+    \end{itemize}
+    \begin{javabox}{Typsicherheit}
+        \begin{lstlisting}[style=java]
+int x = 3;
+String str = "Hello There";
+System.out.println(str - x); <- Führt zu Kompilierungsfehler
+        \end{lstlisting}
+    \end{javabox}
 \end{frame}
 
 \begin{frame}{Statically vs. dynamically typed}
-
+    \begin{itemize}
+        \item Sprachen wie Java
+        \item Datentyp wird einmal deklariert und steht fest
+        \item Nach \inlinecode{int x = 3;}
+              sind \inlinecode{String x = ''Hello'';}
+              und \inlinecode{x = ''There'';}
+              nicht mehr möglich.
+        \item Python: \inlinecode{x = 3} dann \inlinecode{x = ''Ah General Kenobi''} möglich.
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{Compiled vs. interpreted}
-
+    \begin{itemize}
+        \item Java kompiliert durch \inlinecode{javac} Befehl
+        \item \inlinecode{.class} Datei ist Maschinencode aus \inlinecode{.java} Datei
+        \item Interpretierte Sprachen: JavaScript, Python, ...
+        \item Kompilierte Sprachen meistens schneller
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{Garbage collected vs. manuelle Speicherallokation}
-
+    \begin{itemize}
+        \item Unterschied im Speichermanagement
+        \item Manuelle Speicherallokation wird von Programmierer:in kontrolliert
+        \item Garbage collector automatisiert Speicher management
+        \item Manuelle Speicherallokation ist schneller und braucht weniger Speicher
+              ist aber schwieriger
+    \end{itemize}
 \end{frame}
