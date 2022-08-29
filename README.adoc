@@ -33,6 +33,7 @@ Vielleicht:
 
 - CLIPS
 - Smalltalk
+- Algol
 - COBOL
 - FORTRAN
 - B
