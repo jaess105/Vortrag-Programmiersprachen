@@ -3,6 +3,12 @@
 :author: Jannik Leon Esser
 :email: jaess105@hhu.de
 
+== Vortrag
+
+Der Vortrag in diesem Repository ist wurde für den Vorkurs der HHU im WiSe 2022/23 entwickelt. +
+Die link:./tex/Programmiersprachen.pdf[Folien] sind im Repository hochgeladen.
+
+
 == Inkludierte Programmiersprachen
 
 Programmiersprachen, die definitiv aufgeführt werden:
@@ -85,9 +91,6 @@ https://en.wikipedia.org/wiki/General-purpose_language[GPL]
 * Digital signal processing
 * Digital control systems
 * Software development tools
-
-
-
 
 
 == Resources
