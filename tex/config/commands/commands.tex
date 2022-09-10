@@ -13,3 +13,19 @@
 \newcommand{\stopImageTaking}[1]{ \end{column} \end{columns} }
 
 \makeatother
+
+\newcommand{\imgWithSource}[2]{
+    \includegraphics[width=2cm]{#1}\\
+            \hbox{\tiny Source:\thinspace{\tiny\itshape #2}}
+}
+
+\newcommand{\textWithImages}[2]{
+    \begin{columns}
+        \begin{column}{.7\framewidth}
+            #1
+        \end{column}
+        \begin{column}{.2\framewidth}
+            #2
+        \end{column}
+    \end{columns}
+}
