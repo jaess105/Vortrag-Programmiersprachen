@@ -9,7 +9,7 @@ compile:
 	$(call generate_with_bib, Programmiersprachen)
 
 clean:
-	rm -f *.nav *.snm *.log *.out *.aux *.toc *.bbl *.blg *.vrb *.bcf *.xml
+	rm -f *.nav *.snm *.log *.out *.aux *.toc *.bbl *.blg *.vrb *.bcf *.xml *.gz
 
 notes:
 	cp Programmiersprachen.tex Programmiersprachen_with_notes.tex
