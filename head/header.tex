@@ -1,0 +1,83 @@
+\pdfoptionpdfminorversion=5
+\documentclass[handout, 10pt, aspectratio=169, c ,hyperref={pdfpagelabels=false}]{beamer}
+\usepackage{pgfpages}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xmpmulti}
+\usepackage{multicol}
+\usepackage{icomma}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newcommand{\backgroundRef}{background \href{https://www.freepik.com/free-photo/beautiful-milky-way-night-sky_18667464.htm\#query=presentation\%20background\&position=1\&from_view=keyword}{image by rawpixel.com} on Freepik}
+
+\mode<presentation>
+
+\setbeamercolor{normal text}{fg=white}
+\setbeamercolor{alerted text}{fg=red}
+\setbeamercolor{example text}{fg=green}
+\setbeamercolor{structure}{fg=white}
+
+\setbeamercolor{block title}{use=structure,fg=structure.fg,bg=structure.fg!30}
+\setbeamercolor{block title alerted}{use=alerted text,fg=alerted text.fg,bg=alerted text.fg!30}
+\setbeamercolor{block title example}{use=example text,fg=example text.fg,bg=example text.fg!30}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.fg!10}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.fg!10}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.fg!10}
+
+% Template
+\defbeamertemplate*{headline}{default theme}{\vskip.5cm}
+\defbeamertemplate*{footline}{default theme}{
+    \hskip5pt
+    \textcolor{white}{
+        \bf \insertframenumber{} / \inserttotalframenumber \hspace*{.5cm} \backgroundRef{} \hspace*{9.75cm} \href{https://github.com/jaess105/Vortrag-Programmiersprachen}{GitHub} 
+    }
+    \vskip3.2pt
+}
+\setbeamertemplate{frametitle}{\color{white}\insertframetitle\par \vspace*{.5cm} \insertframesubtitle}
+\setbeamertemplate{navigation symbols}{}
+\mode<all>
+
+\usebackgroundtemplate{
+    \includegraphics[width=\paperwidth]{../head/fig/gradient-dark-dynamic-lines-background/5570834}
+}
+
+\colorlet{hhuBlau}{white}
+
+\newcommand{\backgroundNormal}{
+    % \usebackgroundtemplate{
+    % \includegraphics[width=\paperwidth]{head/fig/background_cd_2020}}
+}
+\newcommand{\backgroundTitle}{
+    % \usebackgroundtemplate{
+    % \includegraphics[width=\paperwidth]{head/fig/background_heine}}
+}
+\newcommand{\backgroundEmpty}{
+    % \usebackgroundtemplate{
+    % \includegraphics[width=\paperwidth]{head/fig/background_empty}}
+}
+
+\setlength{\leftmargini}{9pt}
+\setbeamersize{text margin left=25pt,text margin right=25pt}
+\setbeamertemplate{itemize/enumerate subbody end}{\vspace{.5\baselineskip}}
+\setbeamertemplate{section in toc}[sections numbered]
+
+\newenvironment<>{todoblock}{\setbeamercolor{block title}{fg=white,bg=orange}\setbeamercolor{block body}{bg=orange!10}\begin{block}#1{WORKING UNIT}}{\end{block}}
+\newenvironment<>{exercise}[1]{\setbeamercolor{block title}{fg=white,bg=red}\setbeamercolor{block body}{bg=red!10}\setbeamercolor{itemize item}{fg=red}\begin{block}{Aufgabe (#1)}}{\end{block}}
+\newenvironment<>{infoblock}[1]{\setbeamercolor{block title}{fg=white,bg=white}\setbeamercolor{block body}{bg=white!10}\setbeamercolor{itemize item}{fg=white}\begin{block}{#1}}{\end{block}}
+
+\author{Jannik Esser}
+\date{\today}
