@@ -16,17 +16,17 @@ jobs:
       - name: pdflatex main
         uses: dante-ev/latex-action@latest
         with:
-          root_file: $TEX_FILE_NAME.tex
+          root_file: Programmiersprachen.tex
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
       - name: bibtex main
         uses: dante-ev/latex-action@latest
         with:
-          root_file: $TEX_FILE_NAME.aux
+          root_file: Programmiersprachen.aux
           compiler: bibtex
       - name: pdflatex main
         uses: dante-ev/latex-action@latest
         with:
-          root_file: $TEX_FILE_NAME.tex
+          root_file: Programmiersprachen.tex
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
