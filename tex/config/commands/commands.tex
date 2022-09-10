@@ -8,15 +8,16 @@
         \begin{column}{.2\framewidth}
             \checknextarg}
 
-\newcommand{\checknextarg}{\@ifnextchar\stopimages{ \stopImageTaking }{ \slurpNextArg }}
-\newcommand{\slurpNextArg}[1]{ \includegraphics[width=2cm]{#1} \checknextarg}
-\newcommand{\stopImageTaking}[1]{ \end{column} \end{columns} }
+            \newcommand{\checknextarg}{\@ifnextchar\stopimages{ \stopImageTaking }{ \slurpNextArg }}
+            \newcommand{\slurpNextArg}[1]{ \includegraphics[width=2cm]{#1} \checknextarg}
+            \newcommand{\stopImageTaking}[1]{ \end{column} \end{columns} }
 
 \makeatother
 
-\newcommand{\imgWithSource}[2]{
-    \includegraphics[width=2cm]{#1}\\
-            \hbox{\tiny Source:\thinspace{\tiny\itshape #2}}
+\newcommand{\imgWithSource}[3]{
+    \includegraphics[width=2cm]{#1} \\
+    \tiny Source:\thinspace{\tiny #2} \\
+    \hbox{\tiny Content:\thinspace{\tiny\itshape #3}}
 }
 
 \newcommand{\textWithImages}[2]{
