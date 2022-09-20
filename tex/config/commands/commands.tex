@@ -30,3 +30,22 @@
         \end{column}
     \end{columns}
 }
+
+\newcommand{\newSectionPage}[2]{
+    \backgroundEmpty
+
+    \begin{frame}
+        \vfill
+        \centering
+        \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+            \usebeamerfont{title}#1\par%
+        \end{beamercolorbox}
+        \vfill
+
+        \note{
+            #2
+        }
+    \end{frame}
+
+    \backgroundNormal
+}

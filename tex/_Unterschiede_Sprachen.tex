@@ -1,13 +1,35 @@
 \subsection{Unterschiede in Programmiersprachen}
 
+\newSectionPage{\insertsubsectionhead}{
+    \begin{itemize}
+        \item Nicht vollständig
+        \item Behandelt:
+              \begin{itemize}
+                  \item Paradigmen
+                  \item Typsicherheit
+                  \item Statically vs. dynamically typed
+                  \item Compiled vs. interpreted
+                  \item Garbage collected vs. manuelle Speicherallokation
+              \end{itemize}
+    \end{itemize}
+}
+
 \begin{frame}{Paradigmen}
     \begin{itemize}
         \item Unterschiedliche Arten Funktionalitäten darzustellen
         \item Prozedural, objektorientiert, funktional
     \end{itemize}
+
+    \note{
+        \begin{itemize}
+            \item Verschiedene Arten: ermöglichen unterschiedliche Code Formen
+            \item Unterschiede in Kontrollstrukturen und Verhalten
+            \item Viel Sprachen unterstützen nicht nur eins
+            \item aber eins gut
+            \item Behandelt: Prozedural, OOP, Funktional
+        \end{itemize}
+    }
 \end{frame}
-
-
 
 \begin{frame}{Prozedural}
     \begin{itemize}
@@ -16,6 +38,15 @@
         \item Abstraktionen durch Funktionen
         \item Zusammenhalten von Daten durch Strukturen möglich
     \end{itemize}
+
+    \note{
+        \begin{itemize}
+            \item Älteste Form
+            \item Flow von oben nach unten
+            \item Funktionen -> Abstraktion
+            \item Daten Gruppieren in Strukturen
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{Objektorientiert}
@@ -24,6 +55,18 @@
         \item Objekte haben Eigenschaften und Verhalten
         \item Prozedurale Eigenschaften vorhanden durch Programmflow von oben nach unten
     \end{itemize}
+
+    \note{
+        \begin{itemize}
+            \item Objekte: Eigenschaften, Verhalten
+            \item Beispiel Auto:
+                  \begin{itemize}
+                      \item Eigenschaften: Farbe, PS
+                      \item Verhalten: Fahren -> Veränderung der Position
+                  \end{itemize}
+            \item Prozedurale Eigenschaften von Oben nach Unten ausführen
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{Funktional}
@@ -34,6 +77,19 @@
         \item $x_1 = x_2 \Rightarrow f(x_1) = y \text{ und } f(x_2) = y$
         \item Beliebtheit steigt
     \end{itemize}
+
+    \note{
+        \begin{itemize}
+            \item Ähnlich zu prozedural
+            \item oben nach unten
+            \item Zustand wird nicht verändert
+            \item Kopien von Ursprung Objekt
+            \item Idempotenz
+            \item Zwei Objekte gleich -> Output von Funktion gleich
+            \item Einfacheres Nachdenken über Programmflow
+            \item Zuwanderung in letzten Jahren weg von OOP zu Funktional
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}[fragile]{Typsicherheit}
@@ -48,6 +104,14 @@ String str = "Hello There";
 System.out.println(str - x); <- Führt zu Kompilierungsfehler
         \end{lstlisting}
     \end{javabox}
+
+    \note{
+        \begin{itemize}
+            \item Aufzeigen wenn Typen inkompatibel
+            \item String und int
+            \item Versuch -> Kompilierfehler = Typsicherheit
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{Statically vs. dynamically typed}
@@ -60,6 +124,14 @@ System.out.println(str - x); <- Führt zu Kompilierungsfehler
               nicht mehr möglich.
         \item Python: \inlinecode{x = 3} dann \inlinecode{x = ''Ah General Kenobi''} möglich.
     \end{itemize}
+
+    \note{
+        \begin{itemize}
+            \item Typ kann nicht mehr geändert werden
+            \item Sprachen wie java
+            \item Deklarierung nicht nötig für Statische Sprache
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{Compiled vs. interpreted}
@@ -69,6 +141,17 @@ System.out.println(str - x); <- Führt zu Kompilierungsfehler
         \item Interpretierte Sprachen: JavaScript, Python, ...
         \item Kompilierte Sprachen meistens schneller
     \end{itemize}
+
+    \note{
+        \begin{itemize}
+            \item java kompilierte Sprache
+            \item Kompilieren -> verwandlung von Menschen lesbaren code zu Maschinencode
+            \item Js, py, interpretiert
+            \item Sprachen werden im Ausführungsprozess übersetzt
+            \item Kompilierte Sprachen sind meistens schneller
+        \end{itemize}
+    }
+
 \end{frame}
 
 \begin{frame}{Garbage collected vs. manuelle Speicherallokation}
@@ -79,4 +162,16 @@ System.out.println(str - x); <- Führt zu Kompilierungsfehler
         \item Manuelle Speicherallokation ist schneller und braucht weniger Speicher
               ist aber schwieriger
     \end{itemize}
+
+    \note{
+        \begin{itemize}
+            \item Unterschied in Speicherverwaltung
+            \item Manuelle allokation -> Speicheranforderung für alles
+            \item Speicher beliebig modifiziert
+            \item Speicher muss wieder freigegeben werden
+            \item Garbage collection -> Speicher wird von sprache angefordert
+            \item Manueller Speicher -> schneller, weniger resourcen
+            \item Garbage collection -> einfacher, weniger Aufwand, kein Speicher geht verloren
+        \end{itemize}
+    }
 \end{frame}

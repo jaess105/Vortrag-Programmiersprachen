@@ -1,10 +1,21 @@
+\newSectionPage{\insertsectionhead}
+
 \begin{frame}{Programmiersprachen}
     ''There are only two kinds of languages: the ones people complain about and the ones nobody uses.''
     \cite{10.5555/2543987}
     \note{
         — Bjarne Stroustrup, The C++ Programming Language
+
+        \begin{itemize}
+            \item Manche lieben eine Sprache, manche hassen sie
+            \item Keine perfekt
+            \item alle vor- und nachteile
+            \item muss nicht alle können
+            \item hilft zu wissen wann wo welche Sprache sinnvoll
+            \item Mehr Konzepte bekannt = besser
+        \end{itemize}
     }
-    
+
 \end{frame}
 
 \begin{frame}{HTML \& CSS}
@@ -16,6 +27,18 @@
         \end{itemize}
     }{
         \imgWithSource{resources/logos/CSS3_HTML5}{\cite{web:cssHTML}}{Css und HTML Logo}
+    }
+
+    \note{
+        \begin{itemize}
+            \item Grundlagen webbrowser
+            \item HTML stukturierung, CSS schön
+            \item Web basiert auf HTML
+            \item Hauptsächlich in Web aber auch Anwenugen durch andere Sprachen
+            \item HTML keine Programmiersprache
+            \item Keine Logik
+            \item Dennoch unerlässlich
+        \end{itemize}
     }
 \end{frame}
 
@@ -32,6 +55,23 @@
     }{
         \imgWithSource{resources/logos/js}{\cite{web:js}}{JavaScript Logo}
     }
+
+    \note{
+        \begin{itemize}
+            \item HTML und CSS aussehen, JS verhalten
+            \item interpretiert, dynamisch typisiert, typ unsicher (prototyped),
+                  mehrere Paradigmen
+            \item 1995 von Netscape für dynamisch HTML
+            \item heute in allen HTML Seiten für dynamischen Content
+                  und im backend
+            \item sehr umstritten, tausende von Frameworks
+            \item Ursprung im Web dort immernoch fast unerlässlich für dyn Seiten
+            \item Heute,
+                  Android, iOS und Corss-Platform,
+                  ML, Data Science, game-dev
+            \item Viele Anwendungsmöglichkeiten durch Generalität
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{ TypeScript }
@@ -46,6 +86,16 @@
     }{
         \imgWithSource{resources/logos/ts}{\cite{web:ts}}{TypeScript Logo}
     }
+
+    \note{
+        \begin{itemize}
+            \item Superset
+            \item wichtiges Feature, statisch Typisiert und Typsicherheit
+                  -> Frühe Erkennung von Bugs
+            \item Transpiler -> Verwendung von neuen Features in älterem JS
+            \item alle Bereiche, wo JS verwendet wird
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{PHP}
@@ -59,6 +109,22 @@
         \end{itemize}
     }{
         \imgWithSource{resources/logos/php}{\cite{web:php}}{Php Logo}
+    }
+
+    \note{
+        \begin{itemize}
+            \item dynamisch typisiert, interpretiert, GC, viele paradigmen
+            \item Gegensatz JS: auf Server gerendert nicht dynamisch im Browser
+            \item Nur im Web:
+                  Wordpress, Wikipedia
+        \end{itemize}
+        % Ist eine dynamisch typisierte, interpretierte Sprache, mit einem garbage collector und
+        % Unterstützung für viele Paradigmen. PHP wird hauptsächlich zur Erstellung von Webseiten
+        % verwendet.  Im  Gegensatz  zu  JavaScript  wird  die  Sprache  nicht  direkt  im  Browser  ausgeführt
+        % sondern vom Server, welcher dann eine veränderte Seite basierend auf dem PHP Code an den User
+        % schickt.
+        % PHP wird ausschließlich in der Webentwicklung verwendet und betreibt Frameworks wie
+        % Wordpress und Internetseiten, wie Wikipedia.
     }
 \end{frame}
 
@@ -78,6 +144,23 @@
     }{
         \imgWithSource{resources/logos/ruby}{\cite{web:ruby}}{Ruby Logo}
     }
+
+    \note{
+        \begin{itemize}
+            \item Interpretiert, dynamisch typisiert, garbage collected, objektorientiert
+            \item unterstützt auch andere Paradigmen
+            \item Vorallem in Webentwicklung -> GitHub
+            \item Für Skripte: Linux, Windows, iOS
+            \item Manchmal Spieleentwicklung
+        \end{itemize}
+        % Ruby  ist  eine  interpretierte,  dynamisch  Typisierte  Sprache,  mit  einem  garbage  collector.  Ruby
+        % wurde  hauptsächlich  für  Objekt  orientierte  Programmierung  entwickelt,  unterstützt  aber  auch
+        % andere Paradigmen.
+        % Ruby  findet  vor  allem  Verwendung  in  der  Webentwicklung  mit  dem  Framework  Ruby  on  Rails,
+        % welches bekannte Webseiten wie GitHub betreibt. Ruby wird auch als Skriptsprache verwendet um
+        % kleinere  Aufgaben  auf  Linux,  Windows  oder  iOS  zu  erfüllen.  Vereinzelt  wird  Ruby  auch  in  der
+        % Entwicklung von Spielen verwendet.
+    }
 \end{frame}
 
 \begin{frame}{Java und die JVM}
@@ -93,6 +176,16 @@
         \end{itemize}
     }{
         \imgWithSource{resources/logos/java}{\cite{web:java}}{Java Logo}
+    }
+
+    \note{
+        \begin{itemize}
+            \item Kompiliert, statisch typisiert, typsicher, garbage collected, objektorientiert
+            \item JVM
+            \item Grundlage für Android
+            \item Web- und Applikationsentwicklung, data science, künstliche Intelligenz, Spieleentwicklung (Minecraft)
+            \item JVM -> sichert weitere Verwendung
+        \end{itemize}
     }
 \end{frame}
 
@@ -112,6 +205,18 @@
         \imgWithSource{resources/logos/kotlin}{\cite{web:kotlin}}{Kotlin Logo}
     }
 
+    \note{
+        \begin{itemize}
+            \item Ähnlich wie Java
+            \item deutlich jünger
+            \item arbeite auf JVM
+            \item interop
+            \item Weniger fokussiert auf OOP
+            \item neue Funktionalitäten
+            \item Kotlin fast überall wo Java verwendet wird
+            \item Beliebteste Sprache für Android
+        \end{itemize}
+    }
 \end{frame}
 \begin{frame}{Dart}
     \textWithImages{
@@ -128,6 +233,18 @@
         \end{itemize}
     }{
         \imgWithSource{resources/logos/dart}{\cite{web:dart}}{Dart Logo}
+    }
+
+    \note{
+        \begin{itemize}
+            \item OOP Unterstützt andere Paradigmen
+            \item unterschiedliche Schlüsselwörter -> dynamisch oder statisch
+            \item GC
+            \item von Google Nachfolger für JS
+            \item Kann zu Maschinencode oder JS kompiliert werden
+            \item Vor allem in Cross-platform
+            \item Nicht viel in anderen Gebiten aber Möglichkeit besteht
+        \end{itemize}
     }
 
 \end{frame}
@@ -152,6 +269,19 @@
         \imgWithSource{resources/logos/go}{\cite{web:golang}}{Golang Logo}
         % \imgWithSource{resources/logos/go-mascot.png}{\cite{web:go-mascot}}{Golang Maskottchen ''Gopher''}
     }
+
+    \note{
+        \begin{itemize}
+            \item Golang kurz Go, weil es um Geschwindigkeit geht
+            \item Kompiliert, statisch oder dynamisch typisiert, garbage collected, prozedural
+            \item Entwickelt von Google
+            \item Verwendet: Google, Uber und Twitch
+            \item Gute Performance und Lesbarkeit
+            \item Viel für Infrastruktur verwendet
+            \item Aber sonst auch in fast allen Gebieten
+            \item GC aber wenig Speicher daher auch Eingebettete Systeme
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{Sprachen mit manueller Speicherallokation}
@@ -166,6 +296,13 @@
         \item Vorteil in Laufzeiten
     \end{itemize}
 
+    \note{
+        \begin{itemize}
+            \item Am häufigsten verwendet mit man. Speicherallokation
+            \item Hauptsächlich eingebettete Systeme
+        \end{itemize}
+    }
+
 \end{frame}
 
 \begin{frame}{C}
@@ -178,6 +315,13 @@
         \end{itemize}
     }{
         \imgWithSource{resources/logos/c}{\cite{web:C}}{C Logo}
+    }
+
+    \note{
+        \begin{itemize}
+            \item weit verbreitet
+            \item viele können sie
+        \end{itemize}
     }
 
 \end{frame}
@@ -198,6 +342,14 @@
         \imgWithSource{resources/logos/cpp}{\cite{web:cpp}}{C++ Logo}
     }
 
+    \note{
+        \begin{itemize}
+            \item unterschied zwischen C und C++ OOP
+            \item Neue features
+            \item auch Funktional
+            \item Sehr kompliziert wahrgenommen
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{Rust}
@@ -212,6 +364,15 @@
         \imgWithSource{resources/logos/rust-mascot}{\cite{web:rust-mascot-feris}}{Rust Maskottchen ''Feris''}
     }
 
+    \note{
+        \begin{itemize}
+            \item mehere Paradigmen
+            \item neue Konzepte: Owndership Konzept, Null safety
+            \item Einfacher Speicher nachdenken
+                  -> leichtere Bug erkennung
+            \item Vor allem Eingebettete Systeme
+        \end{itemize}
+    }
 \end{frame}
 
 
@@ -230,7 +391,15 @@
         \imgWithSource{resources/logos/csharp}{\cite{web:csharp}}{C\# Logo}
     }
     \note{
-        Stuff
+        \begin{itemize}
+            \item Keine direkte Weiterentwicklung von C++
+            \item Kompiliert, statisch typisiert, typsicher, garbage collected,
+                  objektorientiert
+            \item .NET Framework bietet Interop mit anderen Sprachen und Microsoft support
+            \item Anfänglich nur Windows dadurch viel in Windows
+            \item Wie Java viele Bereiche aber Hauptsächlich: Web, App und Spieleentwicklung
+            \item Grundlage von Unity engine
+        \end{itemize}
     }
 \end{frame}
 
@@ -250,6 +419,17 @@
         \imgWithSource{resources/logos/python}{\cite{web:py}}{Python Logo}
     }
 
+    \note{
+        \begin{itemize}
+            \item Darf niemals fehlen
+            \item beliebt unf einfach
+            \item viele Bibliotheken
+            \item Überall verwendet vor allem ML
+            \item Auch in dynamischen Webseiten
+            \item Nicht in eingebetteten Systemen
+        \end{itemize}
+    }
+
 \end{frame}
 \begin{frame}{Objective-C und Swift}
     \textWithImages{
@@ -260,6 +440,14 @@
     }{
         \imgWithSource{resources/logos/objective-c.png}{\cite{web:Objective-c}}{Inoffizielles Objective-C Logo}
         \imgWithSource{resources/logos/swift.png}{\cite{web:swift}}{Swift Logo}
+    }
+
+    \note{
+        \begin{itemize}
+            \item Hauptsächlich/ausschließlich in Apple Öko
+            \item Swift ist Nachfolger von Objective-C
+            \item Swift ist modern und bietet neue Features
+        \end{itemize}
     }
 
 \end{frame}
@@ -275,5 +463,15 @@
     }{
         \imgWithSource{resources/logos/r.png}{\cite{web:R}}{R Logo}
         \imgWithSource{resources/logos/matlab.png}{\cite{web:matlab}}{Matlab Logo}
+    }
+
+    \note{
+        \begin{itemize}
+            \item letzte
+            \item nicht viel gemein außer domain spezifisch
+            \item R in Data Science und Statistik
+            \item Matlab in Mathe
+            \item Können auch andere Sachen, werden dafür aber nicht viel verwendet
+        \end{itemize}
     }
 \end{frame}
