@@ -5,7 +5,7 @@
 
 == Vortrag
 
-Der Vortrag in diesem Repository ist wurde für den Vorkurs der HHU im WiSe 2022/23 entwickelt. +
+Der Vortrag in diesem Repository wurde für den Vorkurs der HHU im WiSe 2022/23 entwickelt. +
 Die link:./tex/Programmiersprachen.pdf[Folien] sind im Repository hochgeladen.
 
 
